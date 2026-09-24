@@ -822,7 +822,7 @@
     <None Include="Resources\eaglelogo.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="BusinessLayer\BusinessLayer.csproj">
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
       <Project>{e5db088c-05e5-4195-98cb-2def07032fe7}</Project>
       <Name>BusinessLayer</Name>
     </ProjectReference>

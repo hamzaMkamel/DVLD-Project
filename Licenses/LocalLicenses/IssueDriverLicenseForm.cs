@@ -25,6 +25,7 @@ namespace DVLD_Project.Licenses.LocalLicenses
 
         private void LoadLocalApplicaitonInfo(int LocalApplication)
         {
+            localApplication = clsLocalDrivingLicenseApplication.Find(LocalApplication);
             if (localApplication == null)
             {
                 MessageBox.Show($"Application With ID {LocalApplication} Not Found ", "Note :", MessageBoxButtons.OK, MessageBoxIcon.Information);

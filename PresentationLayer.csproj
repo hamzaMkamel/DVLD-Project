@@ -462,12 +462,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
-      <Project>{e5db088c-05e5-4195-98cb-2def07032fe7}</Project>
-      <Name>BusinessLayer</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\account_settings 64.png" />
   </ItemGroup>
   <ItemGroup>
@@ -826,6 +820,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\eaglelogo.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="BusinessLayer\BusinessLayer.csproj">
+      <Project>{e5db088c-05e5-4195-98cb-2def07032fe7}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -49,4 +49,4 @@
 ### then clone the repository
 
 #### finally i really made a hard work developing this project, but it gave me a massive step to be a pro dev in this AI Slop.
-#### You can find the project demo on my linkedin account.
+#### You can find the project demo on my linkedin account : https://lnkd.in/p/e7qDBUvC

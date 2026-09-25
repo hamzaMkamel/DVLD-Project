@@ -189,7 +189,7 @@ namespace DataAccessLayer
         public static int getDetainIDByLicenseID(int LicenseID)
         {
             SqlConnection connection = new SqlConnection(DataAccessSettings.ConnectionString);
-            string query = @"Select DetainID From DetainedLicenses Where LicenseID = @LicenseID";
+            string query = @"Select DetainID From DetainedLicenses Where LicenseID = @LicenseID and IsReleased = 0";
             SqlCommand command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@LicenseID", LicenseID);
             object result = -1;

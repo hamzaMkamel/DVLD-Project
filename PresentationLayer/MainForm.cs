@@ -44,16 +44,16 @@ namespace DVLD_Project
         private void tSButtonManagePeople_Click(object sender, EventArgs e)
         {
             ManagePeopleForm form = new ManagePeopleForm();
-            form.MdiParent = this;
-            form.Show();
+           
+            form.ShowDialog();
 
         }
 
         private void toolStripButtonUsers_Click(object sender, EventArgs e)
         {
             ManageUsersform form = new ManageUsersform();
-            form.MdiParent = this;
-            form.Show();
+            
+            form.ShowDialog();
         }
 
         private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
@@ -85,8 +85,8 @@ namespace DVLD_Project
         private void manageApplicationTypesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ApplicationTypesForm form = new ApplicationTypesForm();
-            form.MdiParent = this;
-            form.Show();
+            
+            form.ShowDialog();
         }
 
         private void toolStripSplitButton1_Click(object sender, EventArgs e)
@@ -97,87 +97,87 @@ namespace DVLD_Project
         private void manageTestTypesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TestTypesForm form = new TestTypesForm();
-            form.MdiParent = this;
-            form.Show();
+            
+            form.ShowDialog();
         }
 
         private void localDrivingLicenseApplicationsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ManageLocalDrivingApplicationsForm form = new ManageLocalDrivingApplicationsForm();
-            form.MdiParent = this;
-            form.Show();
+            
+            form.ShowDialog();
         }
 
         private void localLicenseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AddNewUpdateLocalDrivingLicenseApplication form = new AddNewUpdateLocalDrivingLicenseApplication(-1);
-            form.MdiParent = this;
-            form.Show();
+            
+            form.ShowDialog();
         }
 
         private void toolStripButtonDrivers_Click(object sender, EventArgs e)
         {
             ShowDriversForm form = new ShowDriversForm();
-            form.MdiParent = this;
-            form.Show();
+            
+            form.ShowDialog();
         }
 
         private void retakeTestToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ManageLocalDrivingApplicationsForm form = new ManageLocalDrivingApplicationsForm();
-            form.MdiParent = this;
-            form.Show();
+            
+            form.ShowDialog();
         }
 
         private void internationalLicesneApplicationsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ManageInternationalLicensesForm form = new ManageInternationalLicensesForm();
-            form.MdiParent = this;
-            form.Show();
+            
+            form.ShowDialog();
         }
 
         private void internationalLicenseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AddInternationalLicenseFrom form = new AddInternationalLicenseFrom();
             
-            form.Show();
+            form.ShowDialog();
         }
 
         private void renewDrivingLicenseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             RenewLicenseApplicationForm form = new RenewLicenseApplicationForm();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void replacementForLostOrDamagedLicenseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ReplacementFormLostOrDamagedLicenseApplicationForm form = new ReplacementFormLostOrDamagedLicenseApplicationForm();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void manageDetainedLicensesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ManageDetainedLicensesForm form = new ManageDetainedLicensesForm();
-            form.MdiParent = this;
-            form.Show();
+            
+            form.ShowDialog();
         }
 
         private void detainLicenseToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             DetainLicenseForm form = new DetainLicenseForm();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void releaseDetainLicenseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ReleaseDetainedLicenseForm form = new ReleaseDetainedLicenseForm();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void releaseDetainedDrivingLicenseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ReleaseDetainedLicenseForm form = new ReleaseDetainedLicenseForm();
-            form.Show();
+            form.ShowDialog();
         }
     }
 }
